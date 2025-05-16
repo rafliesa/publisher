@@ -3,3 +3,6 @@ Program publisher ini dirancang untuk mengirimkan lima (5) pesan dalam satu kali
 
 ## The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 Penggunaan URL yang sama, yaitu "amqp://guest:guest@localhost:5672", dalam program publisher dan subscriber menunjukkan bahwa keduanya terhubung ke broker pesan AMQP yang sama. Kesamaan ini memastikan bahwa kedua program beroperasi pada server broker yang identik—berlokasi di mesin lokal (localhost) dan menggunakan port standar AMQP (5672), serta melakukan autentikasi dengan kredensial yang sama (username dan password: guest). Dengan konfigurasi ini, publisher dapat mengirimkan pesan ke antrian bernama "user_created", sementara subscriber dapat menerima pesan dari antrian yang sama. Kedua program tidak perlu saling mengenal atau terhubung secara langsung, melainkan cukup mengetahui cara mengakses broker pesan sebagai perantara komunikasi. Pola ini menciptakan sistem yang asinkron, terpisah secara longgar (loosely coupled), dan tangguh, karena komponen-komponennya dapat berjalan secara independen dan tetap berfungsi meskipun tidak dijalankan secara bersamaan.
+
+##
+![image](https://github.com/user-attachments/assets/40ccc180-7f29-4434-ba7f-16af5ebba5f6)
