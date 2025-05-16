@@ -6,3 +6,7 @@ Penggunaan URL yang sama, yaitu "amqp://guest:guest@localhost:5672", dalam progr
 
 ##
 ![image](https://github.com/user-attachments/assets/40ccc180-7f29-4434-ba7f-16af5ebba5f6)
+
+##
+![image](https://github.com/user-attachments/assets/4d99392c-342c-4168-8afb-82c2cffbbe4b)
+![image](https://github.com/user-attachments/assets/410d7021-e49d-435d-a7c7-7460a8c56a81)
